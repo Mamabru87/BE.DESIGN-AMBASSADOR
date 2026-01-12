@@ -19,6 +19,7 @@
   <script type="text/javascript" src="../wp-content/themes/studiopepe/assets/dist/scripts/main.js" id="main-js-js" defer></script>
   <script src="../wp-content/themes/studiopepe/assets/static/js/gallery.js" defer></script>
   <script src="../wp-content/themes/studiopepe/assets/static/js/offline-filters.js" defer></script>
+  <script src="../wp-content/themes/studiopepe/assets/static/js/offline-images.js" defer></script>
 </head>
 
 <body>
@@ -40,15 +41,15 @@
       <div class="gallery-container relative element">
         <div class="gallery mb-110">
           <div class="scheda" data-category="Brand" data-selected="true">
-            <div class="media-container"><img alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
+            <div class="media-container"><img alt="" data-offline-img="creative.card.exteta" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
             <div class="lg:mt-15 mt-10 lg:px-50 px-20 lg:text-18 text-16"><a href="./exteta-art-direction/">Exteta — Art Direction ↗</a></div>
           </div>
           <div class="scheda" data-category="Catalogue" data-selected="true">
-            <div class="media-container"><img alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
+            <div class="media-container"><img alt="" data-offline-img="creative.card.fendi" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
             <div class="lg:mt-15 mt-10 lg:px-50 px-20 lg:text-18 text-16"><a href="./fendi-3/">Fendi Casa — Catalogue 2023 ↗</a></div>
           </div>
           <div class="scheda" data-category="Catalogue" data-selected="true">
-            <div class="media-container"><img alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
+            <div class="media-container"><img alt="" data-offline-img="creative.card.agape" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" /></div>
             <div class="lg:mt-15 mt-10 lg:px-50 px-20 lg:text-18 text-16"><a href="./agape-cemento/">Agape — Catalogues ↗</a></div>
           </div>
           <div class="scheda" data-category="Brand">
@@ -64,7 +65,7 @@
         <div class="col-start-3 col-span-8 horizontal element wall-element" data-id="">
           <div class="image-wall mb-10">
             <a href="./exteta-art-direction/">
-              <img style="aspect-ratio:2500 / 1667;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
+              <img data-offline-img="creative.wall.exteta" style="aspect-ratio:2500 / 1667;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
             </a>
           </div>
           <div class="lg:text-18 text-16"><a href="./exteta-art-direction/">Exteta — Art Direction ↗</a></div>
@@ -73,7 +74,7 @@
         <div class="col-span-4 col-start-2 self-start element vertical wall-element lg:mx-[-20px]" data-id="">
           <div class="image-wall mb-10">
             <a href="./fendi-3/">
-              <img style="aspect-ratio:1230 / 1641;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
+              <img data-offline-img="creative.wall.fendi" style="aspect-ratio:1230 / 1641;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
             </a>
           </div>
           <div class="lg:text-18 text-16"><a href="./fendi-3/">Fendi Casa — Catalogue 2023 ↗</a></div>
@@ -82,7 +83,7 @@
         <div class="col-span-4 col-start-8 self-start element vertical wall-element lg:mx-[-20px]" data-id="">
           <div class="image-wall mb-10">
             <a href="./agape-cemento/">
-              <img style="aspect-ratio:1289 / 1805;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
+              <img data-offline-img="creative.wall.agape" style="aspect-ratio:1289 / 1805;" width="100%" height="auto" alt="" src="../wp-content/themes/studiopepe/assets/static/images/offline-placeholder.svg" />
             </a>
           </div>
           <div class="lg:text-18 text-16"><a href="./agape-cemento/">Agape — Catalogues ↗</a></div>

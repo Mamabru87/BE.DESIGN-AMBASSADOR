@@ -1,0 +1,409 @@
+{
+  "slots": {
+    "home.gallery.1": "foto/pdf_extracted_images/page2_img1.jpeg",
+    "home.gallery.2": "foto/pdf_extracted_images/page3_img1.jpeg",
+    "home.gallery.3": "foto/pdf_extracted_images/page3_img4.jpeg",
+    "home.gallery.4": "foto/pdf_extracted_images/page3_img7.jpeg",
+    "home.gallery.5": "foto/pdf_extracted_images/page3_img8.jpeg",
+    "home.gallery.6": "foto/pdf_extracted_images/page4_img1.jpeg",
+
+    "home.wall.1": "foto/pdf_extracted_images/page4_img2.jpeg",
+    "home.wall.2": "foto/pdf_extracted_images/page4_img3.jpeg",
+    "home.wall.3": "foto/pdf_extracted_images/page4_img4.jpeg",
+    "home.wall.4": "foto/pdf_extracted_images/page4_img5.jpeg",
+    "home.wall.5": "foto/pdf_extracted_images/page5_img1.jpeg",
+    "home.wall.6": "foto/pdf_extracted_images/page5_img2.jpeg",
+    "home.wall.7": "foto/pdf_extracted_images/page5_img3.jpeg",
+    "home.wall.8": "foto/pdf_extracted_images/page5_img4.jpeg",
+    "home.wall.9": "foto/pdf_extracted_images/page5_img5.jpeg",
+    "home.wall.10": "foto/pdf_extracted_images/page5_img6.jpeg",
+    "home.wall.11": "foto/pdf_extracted_images/page5_img7.jpeg",
+    "home.wall.12": "foto/pdf_extracted_images/page6_img1.jpeg",
+    "home.wall.13": "foto/pdf_extracted_images/page6_img2.jpeg",
+    "home.wall.14": "foto/pdf_extracted_images/page6_img3.jpeg",
+    "home.wall.15": "foto/pdf_extracted_images/page6_img4.jpeg",
+    "home.wall.16": "foto/pdf_extracted_images/page7_img1.jpeg",
+    "home.wall.17": "foto/pdf_extracted_images/page7_img2.jpeg",
+    "home.wall.18": "foto/pdf_extracted_images/page7_img3.jpeg",
+    "home.wall.19": "foto/pdf_extracted_images/page8_img2.jpeg",
+    "home.wall.20": "foto/pdf_extracted_images/page8_img3.jpeg",
+
+    "interiors.card.boutique": "foto/pdf_extracted_images/page8_img6.png",
+    "interiors.card.showroom": "foto/pdf_extracted_images/page8_img7.png",
+    "interiors.card.apartment": "foto/pdf_extracted_images/page9_img2.jpeg",
+    "interiors.card.windows": "foto/pdf_extracted_images/page10_img1.jpeg",
+    "interiors.card.casascarlatti": "foto/pdf_extracted_images/page10_img2.jpeg",
+    "interiors.card.geniusloci": "foto/pdf_extracted_images/page10_img3.jpeg",
+
+    "interiors.wall.showroom": "foto/pdf_extracted_images/page11_img1.jpeg",
+    "interiors.wall.boutique": "foto/pdf_extracted_images/page11_img2.jpeg",
+    "interiors.wall.apartment": "foto/pdf_extracted_images/page11_img3.jpeg",
+    "interiors.wall.alysi": "foto/pdf_extracted_images/page12_img1.jpeg",
+    "interiors.wall.terra": "foto/pdf_extracted_images/page12_img2.jpeg",
+    "interiors.wall.windows": "foto/pdf_extracted_images/page12_img3.jpeg",
+    "interiors.wall.casascarlatti": "foto/pdf_extracted_images/page13_img1.jpeg",
+
+    "products.card.dreamcatcher": "foto/pdf_extracted_images/page13_img2.jpeg",
+    "products.card.fivetonine": "foto/pdf_extracted_images/page13_img3.jpeg",
+    "products.card.lazybones": "foto/pdf_extracted_images/page13_img4.jpeg",
+    "products.card.stamilounge": "foto/pdf_extracted_images/page14_img1.jpeg",
+    "products.card.affinita": "foto/pdf_extracted_images/page14_img2.jpeg",
+    "products.card.nastro": "foto/pdf_extracted_images/page14_img3.jpeg",
+
+    "products.wall.dreamcatcher": "foto/pdf_extracted_images/page14_img4.jpeg",
+    "products.wall.fivetonine": "foto/pdf_extracted_images/page15_img1.jpeg",
+    "products.wall.lazybones": "foto/pdf_extracted_images/page15_img2.jpeg",
+    "products.wall.stamilounge": "foto/pdf_extracted_images/page15_img3.jpeg",
+    "products.wall.affinita": "foto/pdf_extracted_images/page15_img4.jpeg",
+    "products.wall.nastro": "foto/pdf_extracted_images/page15_img5.jpeg",
+
+    "creative.card.exteta": "foto/pdf_extracted_images/page15_img6.jpeg",
+    "creative.card.fendi": "foto/pdf_extracted_images/page15_img7.jpeg",
+    "creative.card.agape": "foto/pdf_extracted_images/page16_img1.jpeg",
+
+    "creative.wall.exteta": "foto/pdf_extracted_images/page16_img2.jpeg",
+    "creative.wall.fendi": "foto/pdf_extracted_images/page16_img3.jpeg",
+    "creative.wall.agape": "foto/pdf_extracted_images/page16_img4.jpeg",
+
+    "exhibitions.card.temenos": "foto/pdf_extracted_images/page16_img5.jpeg",
+    "exhibitions.wall.temenos": "foto/pdf_extracted_images/page16_img5.jpeg",
+
+    "limited.card.solid": "foto/pdf_extracted_images/page16_img6.jpeg",
+    "limited.wall.solid": "foto/pdf_extracted_images/page16_img7.jpeg",
+
+    "manifesto.card.1": "foto/pdf_extracted_images/page17_img1.jpeg",
+    "manifesto.card.2": "foto/pdf_extracted_images/page17_img2.jpeg",
+    "manifesto.card.3": "foto/pdf_extracted_images/page17_img4.jpeg",
+    "manifesto.wall.1": "foto/pdf_extracted_images/page17_img5.jpeg",
+    "manifesto.wall.2": "foto/pdf_extracted_images/page18_img1.jpeg",
+    "manifesto.wall.3": "foto/pdf_extracted_images/page18_img4.jpeg"
+  },
+  "projects": {
+    "interiors/boutique": {
+      "section": "Interiors",
+      "title": "Neue Werkstätten — Showroom",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page18_img5.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page18_img6.jpeg",
+        "foto/pdf_extracted_images/page19_img1.jpeg",
+        "foto/pdf_extracted_images/page19_img2.jpeg",
+        "foto/pdf_extracted_images/page19_img3.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/showroom-4": {
+      "section": "Interiors",
+      "title": "Tacchini — Showroom",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page19_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page19_img5.jpeg",
+        "foto/pdf_extracted_images/page20_img1.jpeg",
+        "foto/pdf_extracted_images/page20_img2.jpeg",
+        "foto/pdf_extracted_images/page20_img3.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/apartment": {
+      "section": "Interiors",
+      "title": "Private — Apartment",
+      "meta": ["Residential"],
+      "hero": "foto/pdf_extracted_images/page20_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page20_img5.jpeg",
+        "foto/pdf_extracted_images/page21_img1.jpeg",
+        "foto/pdf_extracted_images/page21_img2.jpeg",
+        "foto/pdf_extracted_images/page21_img3.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/windows": {
+      "section": "Interiors",
+      "title": "Hermès — Windows",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page21_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page22_img1.jpeg",
+        "foto/pdf_extracted_images/page22_img2.png",
+        "foto/pdf_extracted_images/page22_img3.jpeg",
+        "foto/pdf_extracted_images/page22_img4.png"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/casascarlatti": {
+      "section": "Interiors",
+      "title": "Private — Casa Scarlatti",
+      "meta": ["Residential"],
+      "hero": "foto/pdf_extracted_images/page22_img5.png",
+      "images": [
+        "foto/pdf_extracted_images/page22_img6.jpeg",
+        "foto/pdf_extracted_images/page22_img7.jpeg",
+        "foto/pdf_extracted_images/page23_img1.jpeg",
+        "foto/pdf_extracted_images/page23_img2.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/genius-loci": {
+      "section": "Interiors",
+      "title": "Coutume Studio — Boutique & Gallery",
+      "meta": ["Special Projects"],
+      "hero": "foto/pdf_extracted_images/page23_img3.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page23_img4.jpeg",
+        "foto/pdf_extracted_images/page23_img5.jpeg",
+        "foto/pdf_extracted_images/page23_img6.jpeg",
+        "foto/pdf_extracted_images/page24_img1.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/alysi-boutique-paris": {
+      "section": "Interiors",
+      "title": "Alysi — Boutique (Paris)",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page24_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page24_img3.png",
+        "foto/pdf_extracted_images/page24_img4.jpeg",
+        "foto/pdf_extracted_images/page24_img5.jpeg",
+        "foto/pdf_extracted_images/page25_img1.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/terra": {
+      "section": "Interiors",
+      "title": "Archiproducts — Terra",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page25_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page25_img3.jpeg",
+        "foto/pdf_extracted_images/page25_img4.jpeg",
+        "foto/pdf_extracted_images/page25_img5.jpeg",
+        "foto/pdf_extracted_images/page25_img6.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/avart": {
+      "section": "Interiors",
+      "title": "Avart — Boutique",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page26_img1.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page26_img2.jpeg",
+        "foto/pdf_extracted_images/page26_img3.jpeg",
+        "foto/pdf_extracted_images/page26_img4.jpeg",
+        "foto/pdf_extracted_images/page27_img1.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/avart-boutique": {
+      "section": "Interiors",
+      "title": "Alysi — Boutique",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page27_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page27_img3.jpeg",
+        "foto/pdf_extracted_images/page27_img4.jpeg",
+        "foto/pdf_extracted_images/page27_img5.jpeg",
+        "foto/pdf_extracted_images/page27_img6.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/hermesboutique": {
+      "section": "Interiors",
+      "title": "Hermès — Boutique",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page28_img1.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page28_img2.jpeg",
+        "foto/pdf_extracted_images/page28_img3.jpeg",
+        "foto/pdf_extracted_images/page29_img1.jpeg",
+        "foto/pdf_extracted_images/page29_img3.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+    "interiors/rinascente-4th-floor": {
+      "section": "Interiors",
+      "title": "Rinascente — 4th Floor",
+      "meta": ["Retail"],
+      "hero": "foto/pdf_extracted_images/page29_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page29_img5.jpeg",
+        "foto/pdf_extracted_images/page29_img9.jpeg",
+        "foto/pdf_extracted_images/page29_img10.jpeg",
+        "foto/pdf_extracted_images/page30_img1.jpeg"
+      ],
+      "backHref": "interiors/",
+      "backLabel": "← Back to Interiors"
+    },
+
+    "products/dream-catcher": {
+      "section": "Products",
+      "title": "Pholc — Dream Catcher",
+      "meta": ["Lighting"],
+      "hero": "foto/pdf_extracted_images/page30_img3.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page30_img4.jpeg",
+        "foto/pdf_extracted_images/page30_img5.jpeg",
+        "foto/pdf_extracted_images/page30_img6.jpeg",
+        "foto/pdf_extracted_images/page10_img1.jpeg"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+    "products/solstice-2": {
+      "section": "Products",
+      "title": "Tacchini Italia — Five to Nine",
+      "meta": ["Lighting"],
+      "hero": "foto/pdf_extracted_images/page9_img4.png",
+      "images": [
+        "foto/pdf_extracted_images/page9_img1.png",
+        "foto/pdf_extracted_images/page9_img3.png",
+        "foto/pdf_extracted_images/page8_img1.png",
+        "foto/pdf_extracted_images/page8_img4.png"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+    "products/lazybones": {
+      "section": "Products",
+      "title": "Baxter — Lazybones",
+      "meta": ["Seating"],
+      "hero": "foto/pdf_extracted_images/page7_img3.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page7_img2.jpeg",
+        "foto/pdf_extracted_images/page7_img1.jpeg",
+        "foto/pdf_extracted_images/page6_img4.jpeg",
+        "foto/pdf_extracted_images/page6_img3.jpeg"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+    "products/stami-lounge": {
+      "section": "Products",
+      "title": "Gallotti&Radice — Stami Lounge",
+      "meta": ["Seating"],
+      "hero": "foto/pdf_extracted_images/page6_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page6_img1.jpeg",
+        "foto/pdf_extracted_images/page5_img7.jpeg",
+        "foto/pdf_extracted_images/page5_img6.jpeg",
+        "foto/pdf_extracted_images/page5_img5.jpeg"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+    "products/affinita-elettive": {
+      "section": "Products",
+      "title": "Bloc Studios — Affinità Elettive",
+      "meta": ["Objects"],
+      "hero": "foto/pdf_extracted_images/page5_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page5_img3.jpeg",
+        "foto/pdf_extracted_images/page5_img2.jpeg",
+        "foto/pdf_extracted_images/page5_img1.jpeg",
+        "foto/pdf_extracted_images/page4_img5.jpeg"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+    "products/nastro-portable": {
+      "section": "Products",
+      "title": "Tooy — Nastro Portable",
+      "meta": ["Lighting"],
+      "hero": "foto/pdf_extracted_images/page4_img4.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page4_img3.jpeg",
+        "foto/pdf_extracted_images/page4_img2.jpeg",
+        "foto/pdf_extracted_images/page4_img1.jpeg",
+        "foto/pdf_extracted_images/page3_img8.jpeg"
+      ],
+      "backHref": "products/",
+      "backLabel": "← Back to Products"
+    },
+
+    "creative-direction/exteta-art-direction": {
+      "section": "Creative Direction",
+      "title": "Exteta — Art Direction",
+      "meta": ["Brand"],
+      "hero": "foto/pdf_extracted_images/page3_img7.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page3_img4.jpeg",
+        "foto/pdf_extracted_images/page3_img1.jpeg",
+        "foto/pdf_extracted_images/page2_img1.jpeg",
+        "foto/pdf_extracted_images/page11_img1.jpeg"
+      ],
+      "backHref": "creative-direction/",
+      "backLabel": "← Back to Creative Direction"
+    },
+    "creative-direction/fendi-3": {
+      "section": "Creative Direction",
+      "title": "Fendi Casa — Catalogue 2023",
+      "meta": ["Catalogue"],
+      "hero": "foto/pdf_extracted_images/page11_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page11_img3.jpeg",
+        "foto/pdf_extracted_images/page12_img1.jpeg",
+        "foto/pdf_extracted_images/page12_img2.jpeg",
+        "foto/pdf_extracted_images/page12_img3.jpeg"
+      ],
+      "backHref": "creative-direction/",
+      "backLabel": "← Back to Creative Direction"
+    },
+    "creative-direction/agape-cemento": {
+      "section": "Creative Direction",
+      "title": "Agape — Catalogues",
+      "meta": ["Catalogue"],
+      "hero": "foto/pdf_extracted_images/page13_img1.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page13_img2.jpeg",
+        "foto/pdf_extracted_images/page13_img3.jpeg",
+        "foto/pdf_extracted_images/page13_img4.jpeg",
+        "foto/pdf_extracted_images/page14_img1.jpeg"
+      ],
+      "backHref": "creative-direction/",
+      "backLabel": "← Back to Creative Direction"
+    },
+
+    "exhibitions/temenos": {
+      "section": "Exhibitions",
+      "title": "Galerie Philia — Temenos Exhibition",
+      "meta": ["Exhibitions"],
+      "hero": "foto/pdf_extracted_images/page14_img2.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page14_img3.jpeg",
+        "foto/pdf_extracted_images/page14_img4.jpeg",
+        "foto/pdf_extracted_images/page15_img1.jpeg",
+        "foto/pdf_extracted_images/page15_img2.jpeg"
+      ],
+      "backHref": "exhibitions/",
+      "backLabel": "← Back to Exhibitions"
+    },
+
+    "limited-editions/solid-landscape-vol-ii": {
+      "section": "Limited Editions",
+      "title": "Alimonti Milano — Solid Landscape Vol. II",
+      "meta": ["Limited Editions"],
+      "hero": "foto/pdf_extracted_images/page15_img3.jpeg",
+      "images": [
+        "foto/pdf_extracted_images/page15_img4.jpeg",
+        "foto/pdf_extracted_images/page15_img5.jpeg",
+        "foto/pdf_extracted_images/page15_img6.jpeg",
+        "foto/pdf_extracted_images/page15_img7.jpeg"
+      ],
+      "backHref": "limited-editions/",
+      "backLabel": "← Back to Limited Editions"
+    }
+  }
+}

@@ -28,6 +28,30 @@
   font-display: swap;
 }
 
+/*
+  Brandbook (PDF) font intent
+  The PDF uses embedded fonts like:
+  - URWGeometric (Light/Regular/Black)
+  - Didot
+  - Myriad Pro
+  Those font files are not currently shipped in this repo, so we set up
+  font stacks that will use them if they are later added, and fall back to
+  the bundled Suisse families.
+*/
+
+:root {
+  --be-font-sans: "URW Geometric", "URWGeometric", "Myriad Pro", "Suisse Int1", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --be-font-serif: "Didot", "Didot LT", "GFS Didot", "Suisse Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: var(--be-font-sans);
+}
+
+.serif {
+  font-family: var(--be-font-serif) !important;
+}
+
 /* Keep stub pages readable even if content is minimal */
 .offline-page-shell {
   min-height: 100vh;
@@ -71,7 +95,7 @@
 /* Brand text in the top navigation (replaces the old logo image) */
 .top-navigation__brand {
   display: block;
-  font-family: "Suisse Int1", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--be-font-sans);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -239,3 +263,26 @@ body {
 }
 
 /* Hero uses intrinsic image ratio (no cropping), so no viewport-height rules needed */
+
+/* Offline project pages (rendered by offline-images.js) */
+.offline-project__hero {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.offline-project__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.offline-project__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.offline-project__item {
+  margin: 0;
+}
