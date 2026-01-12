@@ -12,6 +12,26 @@
     <meta name="msapplication-TileColor" content="#faf8f3">
     <meta name="theme-color" content="#faf8f3">
 
+    <script type="text/javascript">
+        // GitHub Pages project sites live under /<repo>/.
+        // If the URL is opened without a trailing slash (e.g. /BE.DESIGN-AMBASSADOR),
+        // browsers resolve relative links like ./limited-editions/ against the domain root.
+        // Force the canonical directory form so all relative links stay under this repo.
+        (function () {
+            try {
+                var p = window.location.pathname || '';
+                if (p && p.length > 1 && p.charAt(p.length - 1) !== '/') {
+                    var last = p.split('/').pop();
+                    if (last && last.indexOf('.') === -1) {
+                        window.location.replace(p + '/' + window.location.search + window.location.hash);
+                    }
+                }
+            } catch (e) {
+                // no-op
+            }
+        })();
+    </script>
+
         <!-- Offline build: external polyfills removed -->
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <title>Homepage - BE.DESIGN AMBASSADOR</title>

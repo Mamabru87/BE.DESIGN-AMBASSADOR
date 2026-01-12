@@ -11,6 +11,25 @@
 (function () {
   'use strict';
 
+  function ensureTrailingSlashForDirectoryPath() {
+    try {
+      var p = (window.location.pathname || '');
+      if (!p || p.length <= 1) return false;
+      if (p.charAt(p.length - 1) === '/') return false;
+
+      var last = p.split('/').pop();
+      // If last segment doesn't look like a file, treat as directory and add slash.
+      if (last && last.indexOf('.') === -1) {
+        window.location.replace(p + '/' + window.location.search + window.location.hash);
+        return true;
+      }
+
+      return false;
+    } catch (e) {
+      return false;
+    }
+  }
+
   function computePrefix() {
     try {
       var segments = (window.location.pathname || '').split('/').filter(Boolean);
@@ -178,6 +197,9 @@
   }
 
   function injectShell() {
+    // Normalize directory URLs without a trailing slash so relative navigation resolves correctly.
+    if (ensureTrailingSlashForDirectoryPath()) return;
+
     // Homepage already has the full shell.
     if (document.getElementById('header')) return;
 
