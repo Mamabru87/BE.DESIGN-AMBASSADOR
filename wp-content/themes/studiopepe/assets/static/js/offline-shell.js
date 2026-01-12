@@ -32,11 +32,22 @@
 
   function computePrefix() {
     try {
-      var segments = (window.location.pathname || '').split('/').filter(Boolean);
-      // If the last segment looks like a file (index.html), treat it as a file and drop it.
-      if (segments.length && segments[segments.length - 1].indexOf('.') !== -1) {
-        segments.pop();
+      // Prefer deriving the prefix from how this script is referenced in the page.
+      // Example on /products/:  "../wp-content/.../offline-shell.js"  => prefix "../"
+      // Example on /products/item/: "../../wp-content/.../offline-shell.js" => prefix "../../"
+      // This is robust for GitHub Pages project sites where location.pathname includes the repo name.
+      var script = document.querySelector('script[src*="offline-shell.js"]');
+      if (script) {
+        var srcAttr = script.getAttribute('src') || '';
+        var idx = srcAttr.indexOf('wp-content/');
+        if (idx !== -1) {
+          return srcAttr.slice(0, idx);
+        }
       }
+
+      // Fallback: compute from the current URL path (may be off by one on project sites).
+      var segments = (window.location.pathname || '').split('/').filter(Boolean);
+      if (segments.length && segments[segments.length - 1].indexOf('.') !== -1) segments.pop();
       var prefix = '';
       for (var i = 0; i < segments.length; i++) prefix += '../';
       return prefix;
