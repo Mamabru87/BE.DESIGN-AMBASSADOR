@@ -1,0 +1,18 @@
+{
+  "name": "BE.DESIGN AMBASSADOR",
+  "short_name": "BE.DESIGN AMBASSADOR",
+  "description": "BE.DESIGN AMBASSADOR - Design and Creative Studio",
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#faf8f3",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}
