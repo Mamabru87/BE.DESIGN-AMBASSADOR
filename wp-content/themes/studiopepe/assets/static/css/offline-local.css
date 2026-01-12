@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Suisse Int1";
-  src: url("/wp-content/themes/studiopepe/assets/static/fonts/SuisseIntl-Regular-WebM.woff2") format("woff2");
+  src: url("../fonts/SuisseIntl-Regular-WebM.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "Suisse Int1";
-  src: url("/wp-content/themes/studiopepe/assets/static/fonts/SuisseIntl-Book-WebM.woff2") format("woff2");
+  src: url("../fonts/SuisseIntl-Book-WebM.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: "Suisse Serif";
-  src: url("/wp-content/themes/studiopepe/assets/static/fonts/SuisseWorks-Regular-WebS.woff2") format("woff2");
+  src: url("../fonts/SuisseWorks-Regular-WebS.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
