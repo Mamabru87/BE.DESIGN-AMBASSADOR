@@ -73,15 +73,11 @@
     // Keep links relative to this page's depth.
     var hrefHome = home;
     var hrefInteriors = home + 'interiors/';
-    var hrefExhibitions = home + 'exhibitions/';
-    var hrefProducts = home + 'products/';
-    var hrefLimited = home + 'limited-editions/';
-    var hrefCreative = home + 'creative-direction/';
-    var hrefManifesto = home + 'manifesto/';
+    var hrefServices = home + 'services/';
+    var hrefProcess = home + 'process/';
     var hrefAbout = home + 'about/';
-    var hrefJa = home + 'ja/';
     var hrefContacts = home + 'contacts/';
-    var hrefPress = home + 'press/';
+    var hrefLegal = home + 'legal/';
 
     var srcSearch = home + 'wp-content/themes/studiopepe/assets/static/images/icons/search.svg';
     var srcArrowFooter = home + 'wp-content/themes/studiopepe/assets/static/images/icons/arrow-footer.svg';
@@ -107,12 +103,11 @@
       '      <div id="menu-top" class="lg:flex hidden uppercase font-medium tracking-[.03em] gap-22 items-center">' +
       '        <div class="menu-mainmenu-container">' +
       '          <ul id="menu-mainmenu" class="menu">' +
-      '            <li class="menu-item"><a href="' + hrefInteriors + '">Interiors</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefExhibitions + '">Exhibitions</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefProducts + '">Products</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefLimited + '">Limited Editions</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefCreative + '">Creative Direction</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefManifesto + '">Manifesto</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefAbout + '">About</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + '">Services</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefInteriors + '">Projects</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefProcess + '">Process</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefContacts + '">Contact</a></li>' +
       '          </ul>' +
       '        </div>' +
       '        <div id="search" class="mix-blend-difference cursor-pointer"><img alt="search" src="' + srcSearch + '"></div>' +
@@ -128,22 +123,22 @@
       '      <div class="lg:hidden block text-24 leading-24 serif pl-20 pt-105">' +
       '        <div class="menu-mainmenu-container">' +
       '          <ul class="menu">' +
-      '            <li class="menu-item"><a href="' + hrefInteriors + '">Interiors</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefExhibitions + '">Exhibitions</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefProducts + '">Products</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefLimited + '">Limited Editions</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefCreative + '">Creative Direction</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefManifesto + '">Manifesto</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefAbout + '">About</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + '">Services</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefInteriors + '">Projects</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefProcess + '">Process</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefContacts + '">Contact</a></li>' +
       '          </ul>' +
       '        </div>' +
       '      </div>' +
       '      <div class="lg:text-30 text-18 lg:leading-28 leading-24 mix-blend-difference lg:pl-50 pl-20 lg:pt-100 pt-50">' +
       '        <div class="menu-mainmenu2-container">' +
       '          <ul class="menu">' +
-      '            <li class="menu-item"><a href="' + hrefAbout + '">About</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefJa + '">日本語</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefContacts + '">Contacts</a></li>' +
-      '            <li class="menu-item"><a href="' + hrefPress + '">Press</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + 'interiors/">Interiors</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + 'styling/">Styling</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + 'product-design/">Product Design</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefServices + 'art-research/">Art & Research</a></li>' +
+      '            <li class="menu-item"><a href="' + hrefLegal + '">Legal</a></li>' +
       '          </ul>' +
       '        </div>' +
       '      </div>' +
@@ -169,19 +164,18 @@
       '      <footer id="colophon" class="border-top blur-menu">' +
       '        <div class="grid grid-cols-12 gap-x-20 lg:gap-y-50 gap-y-20 lg:px-50 px-20 pt-15 pb-15 mix-blend-difference">' +
       '          <div class="serif text-14 leading-18 lg:col-span-2 col-span-6">' +
-      '            <p>BE.DESIGN AMBASSADOR</p>' +
-      '            <p>Viale Abruzzi 20<br /> 20131 Milano<br /> (+39) 02 36505993</p>' +
+      '            <p>BE. DESIGN AMBASSADOR</p>' +
+      '            <p>Florence, Italy<br /><a href="mailto:info@be-designambassador.com">info@be-designambassador.com</a><br /> +39 335 6181701<br /> +39 335 7769855</p>' +
       '          </div>' +
       '          <div class="serif text-14 leading-18 lg:col-span-2 col-span-6">' +
       '            <div class="menu-footer_menu-container">' +
       '              <ul class="menu">' +
-      '                <li class="menu-item"><a href="' + hrefInteriors + '">Interiors</a></li>' +
-      '                <li class="menu-item"><a href="' + hrefProducts + '">Products</a></li>' +
-      '                <li class="menu-item"><a href="' + hrefLimited + '">Limited Editions</a></li>' +
-      '                <li class="menu-item"><a href="' + hrefCreative + '">Creative Direction</a></li>' +
-      '                <li class="menu-item"><a href="' + hrefManifesto + '">Manifesto</a></li>' +
       '                <li class="menu-item"><a href="' + hrefAbout + '">About</a></li>' +
-      '                <li class="menu-item"><a href="' + hrefContacts + '">Contacts</a></li>' +
+      '                <li class="menu-item"><a href="' + hrefServices + '">Services</a></li>' +
+      '                <li class="menu-item"><a href="' + hrefInteriors + '">Projects</a></li>' +
+      '                <li class="menu-item"><a href="' + hrefProcess + '">Process</a></li>' +
+      '                <li class="menu-item"><a href="' + hrefContacts + '">Contact</a></li>' +
+      '                <li class="menu-item"><a href="' + hrefLegal + '">Legal</a></li>' +
       '              </ul>' +
       '            </div>' +
       '          </div>' +

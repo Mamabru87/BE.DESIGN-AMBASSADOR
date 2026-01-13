@@ -11,7 +11,7 @@
 }
 
 html {
-    font-family: Suisse Int1, Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-family: "Neue Haas Grotesk", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     line-height: 1.5;
     -moz-tab-size: 4;
     -o-tab-size: 4;
@@ -1307,7 +1307,7 @@ html {
 }
 
 .serif {
-    font-family: "Suisse Serif";
+    font-family: "Bodoni Moda", "Didot", Georgia, serif;
     letter-spacing: 0
 }
 
@@ -2107,7 +2107,7 @@ iframe.project-video {
         display: none
     }
     .serif-mobile {
-        font-family: "Suisse Serif";
+        font-family: "Bodoni Moda", "Didot", Georgia, serif;
         letter-spacing: 0
     }
     .media-container {
@@ -2196,7 +2196,7 @@ iframe.project-video {
     }
     .socials-footer p {
         display: flex;
-        font-family: Suisse Int1;
+        font-family: "Neue Haas Grotesk", "Helvetica Neue", sans-serif;
         gap: 20px
     }
     .socials-footer p br {

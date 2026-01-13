@@ -4,6 +4,115 @@
   that were generated as simple stubs.
 */
 
+/* ============================================
+   FONTS: BE. DESIGN AMBASSADOR
+   Titoli: Bodoni Moda
+   Testi: Neue Haas Grotesk
+   ============================================ */
+
+/* Bodoni Moda - Titoli (Serif) */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bodoni Moda Static - Regular */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa_28pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bodoni Moda Static - Medium */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa_28pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bodoni Moda Static - SemiBold */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa_28pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bodoni Moda Static - Bold */
+@font-face {
+  font-family: "Bodoni Moda";
+  src: url("../fonts/BodoniModa_28pt-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Neue Haas Grotesk Text - Testi (Sans) */
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-55Roman-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-56Italic-Trial.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-65Medium-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-66MediumItalic-Trial.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-75Bold-Trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk";
+  src: url("../fonts/Neue_Haas_Grotesk_Collection/Neue%20Haas%20Grotesk%20Text%20Family/NeueHaasGrotText-76BoldItalic-Trial.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Legacy Suisse fonts - fallback */
 @font-face {
   font-family: "Suisse Int1";
   src: url("../fonts/SuisseIntl-Regular-WebM.woff2") format("woff2");
@@ -28,28 +137,61 @@
   font-display: swap;
 }
 
-/*
-  Brandbook (PDF) font intent
-  The PDF uses embedded fonts like:
-  - URWGeometric (Light/Regular/Black)
-  - Didot
-  - Myriad Pro
-  Those font files are not currently shipped in this repo, so we set up
-  font stacks that will use them if they are later added, and fall back to
-  the bundled Suisse families.
-*/
-
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
 :root {
-  --be-font-sans: "URW Geometric", "URWGeometric", "Myriad Pro", "Suisse Int1", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --be-font-serif: "Didot", "Didot LT", "GFS Didot", "Suisse Serif", Georgia, "Times New Roman", Times, serif;
+  --be-font-sans: "Neue Haas Grotesk", "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --be-font-serif: "Bodoni Moda", "Didot", "Didot LT", Georgia, "Times New Roman", Times, serif;
+}
+
+html {
+  font-family: var(--be-font-sans) !important;
 }
 
 body {
   font-family: var(--be-font-sans);
 }
 
+/* All text elements use Neue Haas Grotesk */
+p, a, span, li, label, input, select, textarea, button, 
+.text-11, .text-12, .text-13, .text-14, .text-16, .text-18, .text-24,
+.lg\:text-11, .lg\:text-12, .lg\:text-13, .lg\:text-14, .lg\:text-16, .lg\:text-18, .lg\:text-24 {
+  font-family: var(--be-font-sans);
+}
+
+/* Gallery captions and links */
+.scheda a, 
+.wall-element a,
+.gallery a,
+.media-container + div a,
+.image-wall + div a {
+  font-family: var(--be-font-sans);
+}
+
+/* Menu and navigation */
+.menu, .menu a, .menu li,
+#menu-top, #menu-top a,
+#menu-container a,
+.menu-mainmenu-container a,
+.menu-footer_menu-container a {
+  font-family: var(--be-font-sans);
+}
+
+/* Footer text */
+footer, footer p, footer a,
+#colophon, #colophon p, #colophon a {
+  font-family: var(--be-font-sans);
+}
+
 .serif {
   font-family: var(--be-font-serif) !important;
+}
+
+/* Headings use Bodoni Moda */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--be-font-serif);
+  font-weight: 400;
 }
 
 /* Keep stub pages readable even if content is minimal */
@@ -67,15 +209,26 @@ body {
 }
 
 .offline-content h1 {
-  font-family: "Suisse Serif", serif;
-  font-weight: 500;
-  font-size: clamp(24px, 4vw, 48px);
+  font-family: var(--be-font-serif);
+  font-weight: 400;
+  font-size: clamp(28px, 5vw, 56px);
   line-height: 1.05;
-  margin: 0 0 24px;
+  margin: 0 0 32px;
+  letter-spacing: -0.01em;
+}
+
+.offline-content h2 {
+  font-family: var(--be-font-serif);
+  font-weight: 400;
+  font-size: clamp(18px, 3vw, 28px);
+  line-height: 1.15;
+  margin: 40px 0 16px;
 }
 
 .offline-content p {
+  font-family: var(--be-font-sans);
   max-width: 70ch;
+  line-height: 1.6;
 }
 
 .offline-content ul {
